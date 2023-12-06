@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tiles src="Content/Tilesets/16x16.png">
+    <tile name="grass" value="0" sprite="s_grass"/>
+</tiles>

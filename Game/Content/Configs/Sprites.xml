@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sprites>
+    <environment src="Content/Tilesets/Tiles.png">
+        <grass name="s_grass" spd="0">
+            <rect x="0" y="0" w="16" h="16"/>
+        </grass>
+    </environment>
+
+    <UI src="Content/Tilesets/UI.png">
+        <container name="s_small_container" spd="0">
+            <rect x="144" y="0" w="48" h="16" />
+            <rect x="144" y="16" w="48" h="16" />
+        </container>
+
+        <container name="s_medium_container" spd="0">
+            <rect x="144" y="32" w="64" h="16" />
+            <rect x="144" y="48" w="64" h="16" />
+        </container>
+
+        <action_bar_item name="s_action_bar_icon" spd="0">
+            <rect x="0" y="0" w="16" h="16"/>
+        </action_bar_item>
+
+        <map_selection_menu name="s_map_selection_menu" spd="0">
+            <rect x="16" y="0" w="128" h="144"/>
+        </map_selection_menu>
+
+        <world_container name="s_world_container" spd="0">
+            <rect x="144" y="64" w="96" h="32"/>
+            <rect x="144" y="96" w="96" h="32"/>
+        </world_container>
+
+        <map_creation_menu name="s_map_creation_menu" spd="0">
+            <rect x="16" y="144" w="128" h="80"/>
+        </map_creation_menu>
+
+        <option_arrow name="s_option_arrow" spd="0">
+            <rect x="192" y="0" w="16" h="16"/>
+            <rect x="192" y="16" w="16" h="16"/>
+        </option_arrow>
+
+        <delete_icon name="s_delete_icon" spd="0">
+            <rect x="0" y="16" w="16" h="16" />
+            <rect x="0" y="32" w="16" h="16" />
+        </delete_icon>
+    </UI>
+
+    <map src="Content/Tilesets/map.png">
+        <mountain name="s_map_mountain" spd="0">
+            <rect x="0" y="0" w="16" h="16" />
+            <rect x="16" y="0" w="16" h="16" />
+        </mountain>
+
+        <tree name="s_map_tree" spd="0">
+            <rect x="32" y="0" w="16" h="16" />
+            <rect x="48" y="0" w="16" h="16" />
+            <rect x="64" y="0" w="16" h="16" />
+            <rect x="80" y="0" w="16" h="16" />
+            <rect x="96" y="0" w="16" h="16" />
+            <rect x="112" y="0" w="16" h="16" />
+        </tree>
+
+        <road name="s_map_road" spd="0">
+            <rect x="0" y="16" w="16" h="16" />
+            <rect x="16" y="16" w="16" h="16" />
+            <rect x="32" y="16" w="16" h="16" />
+            <rect x="48" y="16" w="16" h="16" />
+            <rect x="64" y="16" w="16" h="16" />
+            <rect x="80" y="16" w="16" h="16" />
+        </road>
+
+        <river name="s_map_river" spd="0" >
+            <rect x="0" y="32" w="16" h="16" />
+            <rect x="16" y="32" w="16" h="16" />
+            <rect x="32" y="32" w="16" h="16" />
+            <rect x="48" y="32" w="16" h="16" />
+            <rect x="64" y="32" w="16" h="16" />
+            <rect x="80" y="32" w="16" h="16" />
+        </river>
+
+        <land name="s_map_land" spd="0">
+            <rect x="0" y="48" w="16" h="16" />
+        </land>
+
+        <water name="s_map_water" spd="0">
+            <rect x="16" y="48" w="16" h="16" />
+        </water>
+    </map>
+</sprites>

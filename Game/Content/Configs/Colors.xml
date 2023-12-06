@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colors>
+    <color name="unknown" r="255" g="255" b="255"/>
+    <color name="background" r="20" g="20" b="20"/>
+    <color name="white" r="255" g="255" b="255"/>
+    <color name="light_gray" r="150" g="150" b="150"/>
+    <color name="test_water" r="104" g="194" b="201"/>
+    <color name="test_land" r="138" g="176" b="96"/>
+    <color name="test_sand" r="229" g="206" b="180"/>
+    <color name="map_land" r="241" g="235" b="219" />
+    <color name="map_water" r="189" g="164" b="153" />
+</colors>

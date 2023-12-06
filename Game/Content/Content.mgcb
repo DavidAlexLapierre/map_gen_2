@@ -1,0 +1,40 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Configs/Colors.xml
+/copy:Configs/Colors.xml
+
+#begin Configs/Sprites.xml
+/copy:Configs/Sprites.xml
+
+#begin Configs/Tiles.xml
+/copy:Configs/Tiles.xml
+
+#begin Fonts/MainFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/MainFont.spritefont
+
+#begin Fonts/PressStart2P.ttf
+/copy:Fonts/PressStart2P.ttf
+
+#begin Tilesets/map.png
+/copy:Tilesets/map.png
+
+#begin Tilesets/UI.png
+/copy:Tilesets/UI.png
+

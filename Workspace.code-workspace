@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "Game"
+		},
+		{
+			"path": "Server"
+		},
+		{
+			"path": "Common"
+		}
+	],
+	"settings": {}
+}
